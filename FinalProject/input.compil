@@ -1,0 +1,15 @@
+compil Testmycompiler () {
+
+floatCompil a,b;
+intCompil x, y;
+
+start
+x = 100;
+x = 5 * 2 + 97 * 5;
+y = 6;
+a=3.7;
+b=a;
+if (x > y) then x = y;
+else y = x; endif;
+printcompil(x);
+}
